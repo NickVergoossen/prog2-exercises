@@ -5,7 +5,7 @@ Schrijf code zodat de testen slagen.
 De volgende functies dienen geschreven te worden:
 
 - oppervlakte_vierkant
-- volume_kubus
+- volum
 - omtrek_cirkel
 - oppervlakte_cirkel
 - volume_cilinder
