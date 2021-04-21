@@ -18,7 +18,7 @@ Om de testen uit te voeren dienen jullie pytest
 te installeren:
 
 ```bash
-pip install pytest
+pip install pytest black
 ```
 
 Nadien kunnen jullie de testen als volgt uitvoeren:
