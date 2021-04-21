@@ -7,7 +7,7 @@ Schrijf code zodat de testen slagen.
 De volgende functies dienen geschreven te worden:
 
 - oppervlakte_vierkant
-- volum
+- volume_kubus
 - omtrek_cirkel
 - oppervlakte_cirkel
 - volume_cilinder
@@ -19,6 +19,7 @@ te installeren:
 
 ```bash
 pip install pytest black
+pip install pytest pytest-cov coverage
 ```
 
 Nadien kunnen jullie de testen als volgt uitvoeren:
