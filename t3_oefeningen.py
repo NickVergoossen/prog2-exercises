@@ -3,15 +3,6 @@ def oppervlakte_vierkant(zijde):
         return -1
     return zijde ** 2
 
-def oppervlakte_vierkant_groot(zijde):
-    if zijde < 0:
-        return -1
-    return zijde ** 2
-
-def oppervlakte_vierkant_negatieve_zijde(zijde):
-    if zijde < 0:
-        return -1
-    return zijde * zijde
 
 def volume_kubus(zijde):
     resultaat = zijde ** 3
@@ -28,10 +19,10 @@ def omtrek_cirkel(straal):
 def oppervlakte_cirkel(straal):
     if straal < 0:
         return -1
-    return 2 ** straal * 3,14
+    return 2 * straal * 3.14
 
 def volume_cilinder(straal, hoogte):
-    return 3,14 * straal ** 2 * hoogte
+    return 0
 
 def bmi(gewicht, lengte):
     if gewicht <= 0:
