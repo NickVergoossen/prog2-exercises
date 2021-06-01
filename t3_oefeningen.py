@@ -1,3 +1,5 @@
+from math import pi
+
 def oppervlakte_vierkant(zijde):
     if zijde < 0:
         return -1
@@ -11,27 +13,26 @@ def volume_kubus(zijde):
     else:
         return resultaat
 
-def omtrek_cirkel(straal):
-    if straal <= 0:
+def omtrek_cirkel(r):
+    if r <= 0:
         return -1
-    resultaat = 2 * straal * 3.14
+    resultaat = 2 * r * pi
     return resultaat
 
 
-def oppervlakte_cirkel(straal):
-    if straal <= 0:
+def oppervlakte_cirkel(r):
+    if r <= 0:
         return -1
-    resultaat = 2 ** straal * 3.14
+    resultaat = (r **2) * pi
     return resultaat
 
-def volume_cilinder(straal, hoogte):
-    resultaat = 3.14 * straal ** 2 * hoogte
-    if straal <= 0:
+def volume_cilinder(r, h):
+    if r <= 0:
         return -1
-    elif hoogte <= 0:
+    if h <= 0:
         return -1
-    else:
-        return resultaat
+    resultaat = oppervlakte_cirkel(r) * h
+    return resultaat
 
 def bmi(gewicht, lengte):
     if gewicht <= 0:
