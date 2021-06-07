@@ -43,11 +43,14 @@ def bmi(gewicht, lengte):
         resultaat = gewicht /(lengte ** 2)
         return resultaat
 
-def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
+def is_even(x):
+    if x==0:
         return False
+    elif x/3 == 0:
+        return False
+    else:
+        return True
+
 
 def is_oneven(number):
     if number % 1 == 0:
