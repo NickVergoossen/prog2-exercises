@@ -43,44 +43,6 @@ def bmi(gewicht, lengte):
         resultaat = gewicht /(lengte ** 2)
         return resultaat
 
-def is_even(x):
-    if x==0:
-        return False
-    elif x/3 == 0:
-        return False
-    else:
-        return True
-
-
-def is_oneven(number):
-    if number % 1 == 0:
-        return True
-    else:
-        return False
-
-def is_palindroom():
-    return 0
-
-def pythagoras():
-    return 0
-
-def stats(punten):
-    gemiddelde = sum(punten) / len(punten)
-    maximum = max(punten)
-    minimum = min(punten)
-    nr = len(punten)
-    return gemiddelde, maximum, minimum, nr
-
-def volume_bol(straal):
-    resultaat = 4/3 * 3.14 * straal**3
-    if straal < 0:
-        return -1
-    else:
-        return resultaat
-
-def volume_donut():
-    return 0
-
 
 
 
